@@ -1,4 +1,4 @@
 class Customer < ApplicationRecord
     has_many :orders
-    has_many :addresss
+    has_many :addressable
 end
