@@ -1,4 +1,4 @@
 class Shop < ApplicationRecord
     has_many :foods
-    has_many :addressable
+    has_one :addressable
 end
