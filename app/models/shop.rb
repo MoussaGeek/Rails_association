@@ -1,4 +1,4 @@
 class Shop < ApplicationRecord
-    has_one :food
-    has_one :address
+    belongs_to :food
+    belongs_to :address
 end
