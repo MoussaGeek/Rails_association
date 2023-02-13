@@ -1,4 +1,4 @@
 class Food < ApplicationRecord
-    belongs_to :order_food
+    has_many :order_foods
     belongs_to :shop
 end
